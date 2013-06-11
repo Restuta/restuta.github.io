@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Readme Driven Development
+title: Eating right
 ---
 
 {{ page.title }}
