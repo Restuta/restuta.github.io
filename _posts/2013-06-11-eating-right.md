@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: eating-right
+permalink: eating-right.html
 title: Eating right
 ---
 Список без аргументов, чисто факты, сомнения и обсуждения достоверности в скайпе =)
