@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 permalink: start-of-cycling
 title: Start of my cycling
 ---
