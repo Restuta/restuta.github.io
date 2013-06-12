@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 permalink: eating-right
 title: Eating right
 ---
