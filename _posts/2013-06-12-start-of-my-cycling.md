@@ -2,10 +2,9 @@
 layout: post
 title: Start of my cycling
 ---
-Мне было 15 лет, когда я написал вот это
-пиу
+Мне было 15 лет, когда я написал вот это:
 
-<img src ="{{ site.url }}/images/posts/cycling-01.jpg" alt="1" align="left" width="300" height="250"  title="1" class="img">
+![1]({{ site.url }}/images/posts/cycling-01.jpg) 
+![2]({{ site.url }}/images/posts/cycling-02.jpg)
 
-
-![My helpful screenshot]({{ site.url }}/images/posts/cycling-01.jpg) 
+Мама подсуммировала в конце, что она думает по этому поводу =) 
