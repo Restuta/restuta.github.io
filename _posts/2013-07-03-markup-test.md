@@ -2,6 +2,6 @@
 layout: post
 title: Markup test
 ---
-* bla
-* bla
+* русский
+* русский
 * русский
