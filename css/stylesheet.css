@@ -223,6 +223,10 @@ ul li {
   padding-left: 20px;
 }
 
+ul ul, ol ul {
+list-style-type: circle;
+}
+
 ol li {
   list-style: decimal inside;
   padding-left: 20px;
