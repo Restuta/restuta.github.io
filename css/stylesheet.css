@@ -223,8 +223,8 @@ ul li {
   padding-left: 20px;
 }
 
-ul li ul, ol ul {
-list-style-type: circle !important;
+ul li ul li, ol ul {
+list-style-type: circle;
 }
 
 ol li {
