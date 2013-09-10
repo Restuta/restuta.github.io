@@ -12,6 +12,11 @@
 "Абсолютно понятно", "ты никогда не xxx", "почему ты всегда xxx"
 
 ------------------------------------
+примеры разговоров
+http://otvet.mail.ru/comments/answer/450433763/ 
+(http://screencast.com/t/DZkkNizmkdq)
+------------------------------------
+
 список Logical Fallacies:
 
 Assuranse
@@ -22,3 +27,5 @@ Assuranse
 		- "it's nonsense"
 		- everybode knows that
 		- "only a dummy would think that..."
+		- it's a common sense
+		 - как известно, 
