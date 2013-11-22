@@ -1,0 +1,1 @@
+use Open Sans for blog posts 'http://www.google.com/fonts/specimen/Open+Sans'
