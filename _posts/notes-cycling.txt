@@ -1,1 +1,4 @@
 use Open Sans for blog posts 'http://www.google.com/fonts/specimen/Open+Sans'
+
+Stories that showcase what you can do with Medium 1.0
+https://medium.com/beautiful-stories
