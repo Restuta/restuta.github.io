@@ -1,5 +1,6 @@
 use Open Sans for blog posts 'http://www.google.com/fonts/specimen/Open+Sans'
 
+<<<<<<< HEAD
 what I can use for post
 	* reveal js
 	* medium
@@ -32,7 +33,7 @@ what I can use for post
 
 This awesome link should be there:
 http://www.youtube.com/watch?v=TEhySzO14ik
-
+=======
 Stories that showcase what you can do with Medium 1.0
 https://medium.com/beautiful-stories
-
+>>>>>>> 07282e445d445ef337d6bd82a2038093138255f1
