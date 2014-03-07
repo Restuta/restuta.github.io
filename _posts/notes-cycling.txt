@@ -3,6 +3,7 @@ todo:
 gather photos
 
 
+
 use Open Sans for blog posts 'http://www.google.com/fonts/specimen/Open+Sans'
 
 what I can use for post
