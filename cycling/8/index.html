@@ -30,8 +30,10 @@
         <div class="reveal">
 
             <div class="slides">
-                <section data-markdown="slides/index.md"></section>        
-                <section data-html="slides/first.html"></section>
+                <section>
+                    <section data-markdown="slides/index.md"></section>        
+                    <section data-html="slides/first.html"></section>
+                </section>
                 <section data-html="slides/slide-2.html"></section>
             </div>
         </div>
@@ -48,6 +50,7 @@
                 history: true,
                 center: true,
                 slideNumber: true,
+                mouseWheel: true,
 
                 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
                 transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none

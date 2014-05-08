@@ -1,0 +1,2 @@
+plan https://coggle.it/diagram/5355fc531b87fb065001a9b6
+font Helvetica Neue (example http://buddhavgorode.com/mental-hygiene/)
