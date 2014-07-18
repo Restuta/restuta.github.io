@@ -1,2 +1,6 @@
 permalink: /:title/
 markdown: kramdown
+collections:
+  debates:
+   permalink: /debates/:path/
+   tags: debate
