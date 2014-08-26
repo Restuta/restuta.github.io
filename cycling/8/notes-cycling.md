@@ -1,4 +1,4 @@
-# Todo:
+# Todo
 
 * gather photos
 
@@ -30,7 +30,10 @@ what I can use for post
 
 Про Лену.
 
-Философские мысли и ответы на вопрос "зачем". Или всякие там "что мотивирует тебя поднять жопу и ...", а что вас мотивирует делать то, что нравится? Ничего. Поиск мотивации нужен только там, где активность не приносит удовольствия, а если дело нравится, то как это что вас мотивирует? 
+Философские мысли и ответы на вопрос "зачем". Или всякие там "что мотивирует тебя поднять жопу и ...", а что вас мотивирует делать то, что нравится? Ничего. Поиск мотивации нужен только там, где активность не приносит удовольствия, а если дело нравится, то как это что вас мотивирует?
+
+    * я бы сказал от любви к спорту, проверки себя и само-мотивации достигать новые вершины, что позволяет открывать в себе что-то что ранее я не открывал,ради понимания что я могу то, что думал я не могу =)
+    * я бы сказал это как наркотик, ты один раз понял что можешь больше чем мог себе представить и теперь тебе хочется испытывать это чувство чаще, вот, первый раз я выразил почему я рейсю хоть как-то близко к тому что я думаю
 
 Про райдеров, которых я хочу запомнить.
 
@@ -39,14 +42,14 @@ what I can use for post
 Про то, что это тяжело и что высокая конкуренция.
 
 Про obsession
-Вот что написал Армстронг в своей книге 
+Вот что написал Армстронг в своей книге
 "It's not about the bike", о своих мыслях сразу после того, как он узнал, что у него рак:
- 
-> "I climbed into my car and made my way along the winding, tree-lined streets 
-> toward my home on the riverbank, and for the first time in my life, I drove 
-> slowly. I was in shock. Oh, my God, I'll never be able to race again. Not, 
-> Oh, my God, I'll die. Not, Oh, my God, I'll never have a family. Those 
-> thoughts were buried somewhere down in the confusion. But the first thing 
+
+> "I climbed into my car and made my way along the winding, tree-lined streets
+> toward my home on the riverbank, and for the first time in my life, I drove
+> slowly. I was in shock. Oh, my God, I'll never be able to race again. Not,
+> Oh, my God, I'll die. Not, Oh, my God, I'll never have a family. Those
+> thoughts were buried somewhere down in the confusion. But the first thing
 > was, Oh, my God, I'll never race again. "
 
 
@@ -55,4 +58,3 @@ http://www.youtube.com/watch?v=TEhySzO14ik
 
 Stories that showcase what you can do with Medium 1.0
 https://medium.com/beautiful-stories
-
