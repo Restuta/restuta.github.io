@@ -38,7 +38,11 @@ title: Eating right
 * умеренно пить алкоголь =)
 
 ---
+
 ###Regarding saturated fats:
-http://chriskresser.com/new-study-puts-final-nail-in-the-saturated-fat-causes-heart-disease-coffin
+<http://chriskresser.com/new-study-puts-final-nail-in-the-saturated-fat-causes-heart-disease-coffin>
+
 ###Omega-3 and Omega-6:
-http://chriskresser.com/how-much-omega-3-is-enough-that-depends-on-omega-6
+<http://chriskresser.com/how-much-omega-3-is-enough-that-depends-on-omega-6>
+
+[Foods with good/bad ratio of Omega-3/6](https://docs.google.com/spreadsheets/d/1DYJMe4HoWLmdTJ8GYqizYc3jqehNHSiu_9JRD8zipUE/edit?usp=sharing)
