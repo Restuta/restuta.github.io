@@ -58,3 +58,6 @@ http://www.youtube.com/watch?v=TEhySzO14ik
 
 Stories that showcase what you can do with Medium 1.0
 https://medium.com/beautiful-stories
+
+Icons to use
+http://thenounproject.com/search/?q=cat
