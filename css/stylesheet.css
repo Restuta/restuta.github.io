@@ -37,6 +37,7 @@ footer, header, hgroup, menu, nav, section {
 
 ol, ul {
   list-style: none;
+  margin-left: 20px;
 }
 
 blockquote, q {
@@ -213,16 +214,8 @@ blockquote {
   border-color: #d6e9c6;
 }
 
-ul, ol, dl {
-  margin-bottom: 15px
-}
-
 ul li {
   list-style-type: disc;
-}
-
-ul li ul {
-  padding-left: 20px;
 }
 
 ul li ul li, ol ul {
@@ -460,21 +453,16 @@ Custom styles
 
 /* supporting wide quotes */
 blockquote.wide {
-    padding: .25rem!important;
-    margin-top: 1rem!important;
-    margin-bottom: 2.1rem!important;
-    font-style: italic!important;
-    font-size: 2.5rem!important;
-    font-family: serif!important;
-    line-height: 1.4!important;
-    text-align: center!important;
-    max-width: 65.625rem!important;
+    padding: .25rem;
+    margin-top: 1rem;
+    font-style: italic;
+    font-size: 2.5rem;
+    font-family: serif;
+    line-height: 1.4;
+    text-align: center;
+    max-width: 65.625rem;
     color: #333;
     border-left: 0px;
 }
-
-/*blockquote {
-    border-left: none!important;
-}*/
 
 }
