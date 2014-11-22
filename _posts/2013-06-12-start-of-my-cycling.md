@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Start of my cycling
+tags: cycling
 ---
 Мне было 12-13 лет, когда я написал вот это:
 
