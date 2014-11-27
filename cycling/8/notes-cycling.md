@@ -51,6 +51,8 @@ what I can use for post
 > Oh, my God, I'll die. Not, Oh, my God, I'll never have a family. Those
 > thoughts were buried somewhere down in the confusion. But the first thing
 > was, Oh, my God, I'll never race again. "
+ 
+про то, что we are loogin for *power*, где power in watts и power как сила
 
 
 This awesome link should be there:
