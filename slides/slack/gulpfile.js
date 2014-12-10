@@ -23,7 +23,7 @@ gulp.task('js', ['clean:js'], function() {
     .pipe(browserify({ transform: ['debowerify'], debug: !isDist }))
     .pipe(isDist ? uglify() : through())
     .pipe(rename('build.js'))
-    .pipe(gulp.dest('dist/build'))
+    .pipe(gulp.dest('./build'))
     .pipe(connect.reload());
 });
 
@@ -32,7 +32,7 @@ gulp.task('html', ['clean:html'], function() {
     .pipe(isDist ? through() : plumber())
     .pipe(jade({ pretty: true }))
     .pipe(rename('index.html'))
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('.'))
     .pipe(connect.reload());
 });
 
@@ -47,44 +47,44 @@ gulp.task('css', ['clean:css'], function() {
     .pipe(autoprefixer('last 2 versions', { map: false }))
     .pipe(isDist ? csso() : through())
     .pipe(rename('build.css'))
-    .pipe(gulp.dest('dist/build'))
+    .pipe(gulp.dest('./build'))
     .pipe(connect.reload());
 });
 
 gulp.task('images', ['clean:images'], function() {
   return gulp.src('src/images/**/*')
-    .pipe(gulp.dest('dist/images'))
+    .pipe(gulp.dest('./images'))
     .pipe(connect.reload());
 });
 
-gulp.task('clean', function() {
-  return gulp.src('dist')
-    .pipe(rimraf());
-});
+// gulp.task('clean', function() {
+//   return gulp.src('dist')
+//     .pipe(rimraf());
+// });
 
 gulp.task('clean:html', function() {
-  return gulp.src('dist/index.html')
+  return gulp.src('./index.html')
     .pipe(rimraf());
 });
 
 gulp.task('clean:js', function() {
-  return gulp.src('dist/build/build.js')
+  return gulp.src('./build/build.js')
     .pipe(rimraf());
 });
 
 gulp.task('clean:css', function() {
-  return gulp.src('dist/build/build.css')
+  return gulp.src('./build/build.css')
     .pipe(rimraf());
 });
 
 gulp.task('clean:images', function() {
-  return gulp.src('dist/images')
+  return gulp.src('./images')
     .pipe(rimraf());
 });
 
 gulp.task('connect', ['build'], function(done) {
   connect.server({
-    root: 'dist',
+    root: '.',
     livereload: true
   });
 
@@ -102,7 +102,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('deploy', ['build'], function(done) {
-  ghpages.publish(path.join(__dirname, 'dist'), { logger: gutil.log }, done);
+  ghpages.publish(path.join(__dirname, '.'), { logger: gutil.log }, done);
 });
 
 gulp.task('build', ['js', 'html', 'css', 'images']);
