@@ -3,7 +3,7 @@ layout: minimalistic
 tags: private
 title: О дружбе
 ---
-<div class="row">
+<div class="row" style="margin-bottom: 15px;">
     <div class="col-lg-4 col-md-4 col-sm-4 col-lg-push-8 col-md-push-8 col-sm-push-8 center">
           <span class="fa fa-medkit big dark-red" aria-hidden="true"></span>
         </div>
@@ -14,8 +14,8 @@ title: О дружбе
 
 
 <div class="row">
-    <div class="col-lg-2 col-md-2 col-sm-2">
-        <div style>
+    <div class="col-lg-2 col-md-2 col-sm-2 center">
+        <div>
             <img class="round size-100x100" src="{{ site.url }}/images/posts/chichen/avatar.jpg" alt="Chichen Avatar">
         </div>
     </div>
@@ -26,13 +26,23 @@ title: О дружбе
 
 <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12">
-      <h3>Первая реакция</h3>
-      <p>Я довольно эмоционально воспринял сообщение. Первой, что я испытал было недоумение вслед за которым последовало желание оспорить, то что ты сказал. Я решил не отвечать сразу, успокоиться и подумать. Через некоторое время недоумение сменилось на разочарование, разочарование от того, что ты думаешь не так, как я ожидал. С одной стороны, это моя проблема, это же <i>мои</i> ожидания, ты не обязан думать как я считаю. С другой стороны, оправданные ожидания, это то, что мы ценим в людях, т.к. это подтверждает для нас самих, что мы знаем человека, знаем, что от него ожидать и понимаем его. Это то, что мне важно иметь в друге и ещё важнее в лучшем друге.
-      </p>
+        <h3>Первая реакция</h3>
+            <p>Я довольно эмоционально воспринял сообщение. Первой, что я испытал было недоумение вслед за которым последовало желание оспорить, то что ты сказал. Я решил не отвечать сразу, успокоиться и подумать. Через некоторое время недоумение сменилось на разочарование, разочарование от того, что ты думаешь не так, как я ожидал. С одной стороны, это моя проблема, это же <i>мои</i> ожидания, ты не обязан думать как я считаю. С другой стороны, оправданные ожидания, это то, что мы ценим в людях, т.к. это подтверждает для нас самих, что мы знаем человека, знаем, что от него ожидать и понимаем его. Это то, что мне важно иметь в друге и ещё важнее в лучшем друге. 
+        </p>
+
+        <h3>Вторая реакция</h3>
+            <p>Пришло понимание, что ты испытываешь нечто похожее, что и я, а именно недоумение и разочарование от неоправданных ожиданий. Стало ясно, что мы отдалились друг от друга. Вслед за этим пониманием возник вопрос, почему ты только сейчас мне об этом сказал? Вслед за этим возникло ещё много вопросов:</p>
+
+            <blockquote class="center">
+                <p>Почему ты это копил в себе?</p>
+                <p>Почему не сказал, что ждёшь ребёнка?</p>
+                <p>С чего это я изменился?</p>
+                <p>При чём тут крёстная?</p>
+                <p>При чём тут мои родители?</p>
+                <p>При чём тут бывшая жена и Сергей?</p>
+                <p>От чего защемило сердце?</p>
+            </blockquote>
+            <p>И я решил взять паузу, подумать над эмоциями.</p>
     </div>
 
-    <!-- <div class="col-lg-6 col-md-6 col-sm-6">
-      <h3>How to stop the leak?</h3>
-      <p>As long as the vulnerable version of OpenSSL is in use it can be abused. <a href="https://www.openssl.org/news/secadv_20140407.txt">Fixed OpenSSL</a> has been released and now it has to be deployed. Operating system vendors and distribution, appliance vendors, independent software vendors have to adopt the fix and notify their users. Service providers and users have to install the fix as it becomes available for the operating systems, networked appliances and software they use.</p>
-    </div> -->
 </div>

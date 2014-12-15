@@ -52,10 +52,6 @@ img.size-100x100 {
     height: 100px;
 }
 
-.center {
-    text-align: center;
-}
-
 footer {
     margin-top: 2em;
 }
@@ -82,12 +78,17 @@ a.codenomicon:hover {
 }
 
 blockquote {
+    padding: 0px;
     font-style: italic;
+    font-size: inherit;
     border-left: 0px;
     color: #666666;
 }
 .right {
     text-align: right;
+}
+.center {
+    text-align: center;
 }
 
 @media (min-width: 768px) {
