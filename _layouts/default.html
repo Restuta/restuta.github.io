@@ -7,7 +7,8 @@
     <meta name="description" content="{{ page.title }}" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="/css/stylesheet.css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700,800&subset=cyrillic-ext,latin" rel="stylesheet" type="text/css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <title>{{ page.title }}</title>
   </head>
@@ -16,9 +17,20 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="http://restuta.github.io">restuta.github.io</a>
-          <h1 id="project_title">{{ page.title }}</h1>
-          <h2 id="project_tagline">#{{ page.tags | join:' #' }}</h2>
+
+          {% unless page.title %} <!-- if home page -->
+            <a id="forkme_banner" class="opacity50" href="https://twitter.com/Restuta">Anton Vynogradenko 
+              <span class="fa fa-twitter" aria-hidden="true"></span>
+            </a>
+            <h1 id="project_title">restuta<span id="me-domain">.me</span></h1> 
+          {% else %}
+            <a id="forkme_banner" href="/">restuta.me</a>
+            <h1 id="project_title">{{ page.title }}</h1> 
+          {% endunless %}
+        
+          {% if page.tags %}
+            <h2 id="project_tagline">#{{ page.tags | join:' #' }}</h2>
+          {% endif %}
         </header>
     </div>
 
