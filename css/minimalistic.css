@@ -27,12 +27,29 @@ h4 {
     margin: 2em 0 0.5em 0;
 }
 
-.glyphicon.big {
-    font-size: 15em;
-    top: 0px;
+.glyphicon.big, .fa.big {
+    font-size: 9em;
+    top: 10px;
 }
-.glyphicon.blue {
+.glyphicon.blue, .fa.blue {
     color: #0074D9
+}
+
+.glyphicon.gray, .fa.gray{
+    color:#4E6F8C;
+}
+
+.glyphicon.dark-red, .fa.dark-red {
+    color: rgb(185, 0, 0);
+}
+
+
+img.round {
+    border-radius: 50%;
+}
+img.size-100x100 {
+    width: 100px;
+    height: 100px;
 }
 
 .center {
@@ -44,7 +61,7 @@ footer {
 }
 
 .row img {
-    max-width: 200px;
+    max-width: 100px;
 }
 
 a.codenomicon {
@@ -64,6 +81,15 @@ a.codenomicon:hover {
     font-size: 0.8em;
 }
 
+blockquote {
+    font-style: italic;
+    border-left: 0px;
+    color: #666666;
+}
+.right {
+    text-align: right;
+}
+
 @media (min-width: 768px) {
     h1 {
         margin: 1em 0;
@@ -81,8 +107,8 @@ a.codenomicon:hover {
         top: 0px;
     }
     .glyphicon.big {
-        font-size: 15em;
-        top: -15px;
+        font-size: 10em;
+        top: -25px;
     }
 }
 

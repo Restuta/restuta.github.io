@@ -1,32 +1,38 @@
 ---
 layout: minimalistic
 tags: private
-title: Ответ
+title: О дружбе
 ---
 <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 col-lg-push-8 col-md-push-8 col-sm-push-8 center">
-          <span class="glyphicon glyphicon-cloud big blue" aria-hidden="true"></span>
+          <span class="fa fa-medkit big dark-red" aria-hidden="true"></span>
         </div>
         <div class="col-lg-8 col-md-8 col-sm-8 col-lg-pull-4 col-md-pull-4 col-sm-pull-4">
-          <p></p>
+          <p>Я как-то сказал тебе в What's App, что чувствую, что что-то поменялось, что ты как-то странно общаешься. Я ожидал, что ты ответишь, что-то вроде "Да нет, просто занят, как всегда и с ребёнком много дел", но ты ответил следующее:</p>
         </div>
 </div>
 
->Сообщение от чичена фылваофылдвао фдылвао лдфыова лфывоадл фыовалд офываджл офыв
-афыв
-а
-фыва
-фыва
-фыва
 
 <div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6">
-      <h3>What leaks in practice?</h3>
-      <p>We have tested some of our own services from attacker's perspective. We attacked ourselves from outside, without leaving a trace. Without using any privileged information or credentials we were able steal from ourselves the secret keys used for our X.509 certificates, user names and passwords, instant messages, emails and business critical documents and communication.</p>
+    <div class="col-lg-2 col-md-2 col-sm-2">
+        <div style>
+            <img class="round size-100x100" src="{{ site.url }}/images/posts/chichen/avatar.jpg" alt="Chichen Avatar">
+        </div>
+    </div>
+    <div class="col-lg-10 col-md-10 col-sm-10">
+        <blockquote>"Привет! Ты знаешь, что сам очень изменился?! Конечно это понятно. Я тоже стал другим. Но мне кажется, что забыл обо мне. В последний раз ты мне писал, когда я поздравил тебя с Днем Рождения! С сухим ответом на вопрос, как дела - "Нормально". Думаю ты прекрасно знаешь, что происходит на нашей с тобой родине. Но ты ни разу не поинтересовался как там крестная. А твои родители вообще прекратили какие-либо отношения с моими. В чем причина никто не знает. Но это дело родителей. А мне обидно, что мой лучший друг стал далек от меня во всех смыслах. Ты наверное больше общаешся со своей бывшей женой и ее Сергеем (если правильно помню как его зовут). Когда увидел фото, на котором вы все вместе вместе, очень "защимило" сердце за тебя. Но это пожалуй, не мое дело." </blockquote>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <h3>Первая реакция</h3>
+      <p>Я довольно эмоционально воспринял сообщение. Первой, что я испытал было недоумение вслед за которым последовало желание оспорить, то что ты сказал. Я решил не отвечать сразу, успокоиться и подумать. Через некоторое время недоумение сменилось на разочарование, разочарование от того, что ты думаешь не так, как я ожидал. С одной стороны, это моя проблема, это же <i>мои</i> ожидания, ты не обязан думать как я считаю. С другой стороны, оправданные ожидания, это то, что мы ценим в людях, т.к. это подтверждает для нас самих, что мы знаем человека, знаем, что от него ожидать и понимаем его. Это то, что мне важно иметь в друге и ещё важнее в лучшем друге.
+      </p>
     </div>
 
-    <div class="col-lg-6 col-md-6 col-sm-6">
+    <!-- <div class="col-lg-6 col-md-6 col-sm-6">
       <h3>How to stop the leak?</h3>
       <p>As long as the vulnerable version of OpenSSL is in use it can be abused. <a href="https://www.openssl.org/news/secadv_20140407.txt">Fixed OpenSSL</a> has been released and now it has to be deployed. Operating system vendors and distribution, appliance vendors, independent software vendors have to adopt the fix and notify their users. Service providers and users have to install the fix as it becomes available for the operating systems, networked appliances and software they use.</p>
-    </div>
+    </div> -->
 </div>
