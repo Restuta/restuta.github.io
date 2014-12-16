@@ -498,24 +498,62 @@ blockquote.wide {
 #http-prefix {
   color: gray;
   opacity: 0.4;
+  position: relative;
+}
+
+#secret {
+  position: relative;
+  opacity: 0;
+}
+
+#plus, #equals {
+  color: #B6B2B2;
+}
+
+#equals {
+  opacity: 0;
+  -webkit-animation: appear 2s linear 13s 1 normal forwards; 
+}
+
+#me4ta {
+  color: #AA5DFF;
+}
+
+#heart-icon {
+  color: #FF4136;
+  opacity: 0;
+  -webkit-animation: appear 2s linear 36s 1 normal forwards,
+                     scale-heartbeat 3s linear 38s infinite normal; 
+}
+
+.animate-disappear {
+  -webkit-animation: disappear 2s linear 30s 1 normal forwards;
+}
+
+.animate-move-left {
+  -webkit-animation: move-left 2s linear 30s 1 normal forwards; 
 }
 
 #me-domain {
   opacity: 0.5;
   color: #0090ff;
+  position: relative;
 
   -moz-animation: blink-me 10s infinite;
   -moz-animation-timing-function: linear;
   -moz-animation-delay: 2s;
 
-  -webkit-animation: blink-me 10s infinite;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-delay: 2s;
+  -webkit-animation: blink-me 10s linear 2s 3 normal,
+                     disappear 2s linear 30s 1 normal forwards;
 
   animation: blink-me 10s infinite;
   animation-timing-function: linear;
   animation-delay: 2s;
+
+  /* animate disappearing */
+  
 }
+/*animation: name duration timing-function delay iteration-count direction fill-mode play-state;*/
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes blink-me {
@@ -527,6 +565,32 @@ blockquote.wide {
     }
 }
 
+@-webkit-keyframes disappear {
+  from { top: 0px; }
+  to { top: -60px; color: black; }
+}
+
+@-webkit-keyframes appear {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@-webkit-keyframes move-left {
+  from {left: 0px; opacity: 0;}
+  to {left: -70px; opacity: 1;}
+}
+
+@-webkit-keyframes scale-heartbeat {
+  0% { -webkit-transform: scale(1); }
+  30% { -webkit-transform: scale(1); }
+  40% { -webkit-transform: scale(1.08); }
+  50% { -webkit-transform: scale(1); }
+  60% { -webkit-transform: scale(1); }
+  70% { -webkit-transform: scale(1); }
+  80% { -webkit-transform: scale(1.08); }
+  100% { -webkit-transform: scale(1); }
+}
+
 /* Firefox */
 @-moz-keyframes blink-me {
     21%, 39%, 45%, 47%, 53% {
@@ -536,7 +600,6 @@ blockquote.wide {
         opacity: 1;
     }
 }
-
 
 /* Standard syntax */
 @keyframes blink-me {
