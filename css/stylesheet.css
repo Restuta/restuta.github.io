@@ -36,8 +36,12 @@ footer, header, hgroup, menu, nav, section {
 }
 
 ol, ul {
-  list-style: none;
+  list-style: circle;
   margin-left: 20px;
+}
+
+ul.posts li {
+  list-style-type: none;
 }
 
 blockquote, q {
@@ -215,11 +219,11 @@ blockquote {
 }
 
 ul li {
-  list-style-type: none;
+  list-style-type: disc;
 }
 
 ul li ul li, ol ul {
-list-style-type: circle;
+  list-style-type: circle;
 }
 
 ol li {
@@ -493,7 +497,7 @@ blockquote.wide {
 
 #http-prefix {
   color: gray;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 #me-domain {
