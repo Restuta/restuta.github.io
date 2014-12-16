@@ -491,6 +491,11 @@ blockquote.wide {
     border-left: 0px;
 }
 
+#http-prefix {
+  color: gray;
+  opacity: 0.5;
+}
+
 #me-domain {
   opacity: 0.5;
   color: #0090ff;
