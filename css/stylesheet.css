@@ -361,9 +361,8 @@ Full-Width Styles
   opacity: 0.5;
 }
 
-#me-domain {
-  opacity: 0.5;
-  color: #0090ff;
+a.fork-me:hover {
+  opacity: 1;
 }
 
 #downloads {
@@ -492,4 +491,51 @@ blockquote.wide {
     border-left: 0px;
 }
 
+#me-domain {
+  opacity: 0.5;
+  color: #0090ff;
+
+  -moz-animation: blink-me 10s infinite;
+  -moz-animation-timing-function: linear;
+  -moz-animation-delay: 2s;
+
+  -webkit-animation: blink-me 10s infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 2s;
+
+  animation: blink-me 10s infinite;
+  animation-timing-function: linear;
+  animation-delay: 2s;
 }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes blink-me {
+    21%, 39%, 45%, 47%, 53% {
+        opacity: 0.2;
+    }
+    26%, 38%, 40%, 44%, 46%, 48% {
+        opacity: 1;
+    }
+}
+
+/* Firefox */
+@-moz-keyframes blink-me {
+    21%, 39%, 45%, 47%, 53% {
+        opacity: 0.2;
+    }
+    26%, 38%, 40%, 44%, 46%, 48% {
+        opacity: 1;
+    }
+}
+
+
+/* Standard syntax */
+@keyframes blink-me {
+    21%, 39%, 45%, 47%, 53% {
+        opacity: 0.2;
+    }
+    26%, 38%, 40%, 44%, 46%, 48% {
+        opacity: 1;
+    }
+}
+
