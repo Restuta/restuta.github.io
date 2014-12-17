@@ -19,19 +19,32 @@ img.medium
     width: 500px
     
 li
-    font-size: 22px
-    
+    font-size: 26px
+
+ul.nested li
+    text-align: left
+    font-size: 36px    
+.nested > li ul li
+    text-align: left
+    font-size: 20px
+    margin-bottom: 5px
+    margin-left: 50px
+
+
 .red
-    color: #FF4136
-    
+    color: #FF4136 !important
 .blue
-    color: #0074D9
-    
+    color: #0074D9 !important
 .green
-    color: #2ECC40
-    
+    color: #2ECC40 !important
 .orange
-    color: #FF851B
+    color: #FF851B !important
+.pink
+    color: #f68dbb !important
+.cyan
+    color: #0ac2d2 !important
+.grey
+    color: #AAAAAA !important
 
 .big-text 
     font-size: 60px
@@ -50,11 +63,20 @@ li
         background: #fd6a62
     &.background-pink
         background: #f68dbb
+    &.background-black
+        background: #111111
+        color: #FFFFFF
 
 .bespoke-bullet-active
     color: #D3D3D3;
 .bespoke-bullet-current
     color: black;
+    
+blockquote
+    font-size: 28px
+.big-text
+    font-size: 28px
+    line-height: normal
     
     
 .bespoke-before 

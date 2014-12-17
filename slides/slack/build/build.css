@@ -215,19 +215,38 @@ img.medium {
   width: 500px;
 }
 li {
-  font-size: 22px;
+  font-size: 26px;
+}
+ul.nested li {
+  text-align: left;
+  font-size: 36px;
+}
+.nested > li ul li {
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-left: 50px;
 }
 .red {
-  color: #ff4136;
+  color: #ff4136 !important;
 }
 .blue {
-  color: #0074d9;
+  color: #0074d9 !important;
 }
 .green {
-  color: #2ecc40;
+  color: #2ecc40 !important;
 }
 .orange {
-  color: #ff851b;
+  color: #ff851b !important;
+}
+.pink {
+  color: #f68dbb !important;
+}
+.cyan {
+  color: #0ac2d2 !important;
+}
+.grey {
+  color: #aaa !important;
 }
 .big-text {
   font-size: 60px;
@@ -251,11 +270,22 @@ li {
 .emphatic.background-pink {
   background: #f68dbb;
 }
+.emphatic.background-black {
+  background: #111;
+  color: #fff;
+}
 .bespoke-bullet-active {
   color: #d3d3d3;
 }
 .bespoke-bullet-current {
   color: #000;
+}
+blockquote {
+  font-size: 28px;
+}
+.big-text {
+  font-size: 28px;
+  line-height: normal;
 }
 .bespoke-before {
   -webkit-transform: translateX(640px) translateX(-320px) rotateY(-20deg) translateX(-320px);
