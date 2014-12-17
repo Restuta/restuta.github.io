@@ -217,14 +217,44 @@ img.medium {
 li {
   font-size: 22px;
 }
-.bespoke-backdrop-active {
-  background-color: #00f3a5;
+.red {
+  color: #ff4136;
 }
-.emphatic-text.bespoke-slide {
-  background-color: #00f3a5;
+.blue {
+  color: #0074d9;
 }
-article.bespoke-parent.green {
-  background: #00f3a5;
+.green {
+  color: #2ecc40;
+}
+.orange {
+  color: #ff851b;
+}
+.big-text {
+  font-size: 60px;
+}
+.emphatic.background-cyan {
+  background: #0ac2d2;
+}
+.emphatic.background-blue {
+  background: #7bb7fa;
+}
+.emphatic.background-green {
+  background: #60d7a9;
+}
+.emphatic.background-yellow {
+  background: #fdc162;
+}
+.emphatic.background-red {
+  background: #fd6a62;
+}
+.emphatic.background-pink {
+  background: #f68dbb;
+}
+.bespoke-bullet-active {
+  color: #d3d3d3;
+}
+.bespoke-bullet-current {
+  color: #000;
 }
 .bespoke-before {
   -webkit-transform: translateX(640px) translateX(-320px) rotateY(-20deg) translateX(-320px);
