@@ -22,7 +22,7 @@ bespoke.from('article', [
   scale(),
   state(),
   hash(),
-  progress(),
+  //progress(),
   forms()
 ]);
 
