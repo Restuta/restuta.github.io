@@ -227,11 +227,21 @@ ul.nested li {
   margin-bottom: 5px;
   margin-left: 50px;
 }
+h3 {
+  font-size: 26px;
+  color: #000;
+}
 .red {
   color: #ff4136 !important;
 }
+.dark-red {
+  color: #c03636 !important;
+}
 .blue {
   color: #0074d9 !important;
+}
+.aqua {
+  color: #7fdbff !important;
 }
 .green {
   color: #2ecc40 !important;
@@ -250,6 +260,9 @@ ul.nested li {
 }
 .purple {
   color: #b10dc9 !important;
+}
+.white {
+  color: #fff !important;
 }
 .big-text {
   font-size: 60px;
@@ -271,12 +284,18 @@ ul.nested li {
 .emphatic.background-red {
   background: #fd6a62;
 }
+.emphatic.background-dark-red {
+  background: #c03636;
+}
 .emphatic.background-pink {
   background: #f68dbb;
 }
 .emphatic.background-black {
   background: #111;
   color: #fff;
+}
+.emphatic.background-mellow {
+  background: #fbf0e3;
 }
 .bespoke-bullet-active {
   color: #d3d3d3;
