@@ -248,6 +248,9 @@ ul.nested li {
 .grey {
   color: #aaa !important;
 }
+.purple {
+  color: #b10dc9 !important;
+}
 .big-text {
   font-size: 60px;
 }
@@ -257,6 +260,7 @@ ul.nested li {
 }
 .emphatic.background-blue {
   background: #7bb7fa;
+  color: #fff;
 }
 .emphatic.background-green {
   background: #60d7a9;
