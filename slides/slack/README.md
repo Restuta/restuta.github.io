@@ -1,5 +1,4 @@
-# Todo
-* use info from here http://metalab.co/projects/slack/
+[See it Live](http://restuta.me/slides/slack))
 
 # Slack?
 > A [Bespoke.js](http://markdalgleish.com/projects/bespoke.js) presentation, built with [generator-bespoke](https://github.com/markdalgleish/generator-bespoke)
