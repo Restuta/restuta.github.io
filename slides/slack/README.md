@@ -1,4 +1,4 @@
-[See it Live](http://restuta.me/slides/slack))
+[See it Live](http://restuta.me/slides/slack)
 
 # Slack?
 > A [Bespoke.js](http://markdalgleish.com/projects/bespoke.js) presentation, built with [generator-bespoke](https://github.com/markdalgleish/generator-bespoke)

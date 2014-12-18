@@ -1,2 +1,2 @@
-restuta.me[restuta.me]
+(http://restuta.me)
 =================
