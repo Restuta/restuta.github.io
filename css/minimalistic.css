@@ -27,6 +27,13 @@ h4 {
     margin: 2em 0 0.5em 0;
 }
 
+.date {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(210, 210, 210);
+}
+
 .glyphicon.big, .fa.big {
     font-size: 9em;
     top: 10px;
