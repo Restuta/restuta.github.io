@@ -26,6 +26,9 @@ h4 {
     font-weight: 400;
     margin: 2em 0 0.5em 0;
 }
+b {
+    font-weight: 400;
+}
 
 .date {
     font-style: italic;
