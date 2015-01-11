@@ -94,12 +94,15 @@ a.codenomicon:hover {
 }
 
 blockquote {
-    padding: 0px;
+    padding: 0;
     font-style: italic;
     font-size: inherit;
-    border-left: 0px;
+    border-left: 0;
     color: #666666;
-    margin-bottom: 10px;
+    margin: 30px 50px 30px 50px;
+}
+blockquote.big{
+    font-size: 1.3em;
 }
 .right {
     text-align: right;
