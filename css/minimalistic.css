@@ -111,10 +111,20 @@ blockquote.big{
     text-align: center;
 }
 
+@media(min-width: 100px) {
+    .container {
+        padding-left: 25px;
+        padding-right: 45px;
+    }
+}
+
 @media (min-width: 768px) {
     h1 {
         margin: 1em 0;
         text-align: left;
+    }
+    .container {
+        max-width: 750px;
     }
     .download {
         padding-left: 20px;
@@ -156,4 +166,36 @@ blockquote.big{
         min-width: 600px;
         max-width: 0;
     }
+}
+
+.anchor-link {
+    position: absolute;
+    left: -1.5em;
+    font-size: .8em;
+    top: .2em;
+    color: #dadbdf;
+}
+
+.button-ui--back {
+    right: 0;
+    bottom: 0;
+}
+
+.icon {
+    display: inline-block;
+    text-align: center;
+}
+.button-ui {
+    position: fixed;
+    display: block;
+    cursor: pointer;
+    margin: 1em;
+    padding: 0.3em 0.5em;
+    font-size: 0.8em;
+    border-radius: 0.35em;
+    color: #999;
+    border: 0.25em solid;
+    background: transparent;
+    text-align: center;
+    font-weight: 400;
 }
