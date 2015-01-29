@@ -99,10 +99,11 @@ blockquote {
     font-size: inherit;
     border-left: 0;
     color: #666666;
+    font-size: 1.3em;
     margin: 30px 50px 30px 50px;
 }
-blockquote.big{
-    font-size: 1.3em;
+blockquote.small{
+    font-size: 1em;
 }
 .right {
     text-align: right;
@@ -146,7 +147,7 @@ blockquote.big{
 
 @media (min-width: 992px) {
     body {
-        font-size: 2em;
+        font-size: 1.6em;
     }
     .container {
         max-width: 970px;
