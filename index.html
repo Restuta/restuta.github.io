@@ -16,9 +16,11 @@ title:
   <h1>Debates</h1>
   <ul class="posts">
     {% for debate in site.debates %}
-      <li>
-      	<a href="{{ debate.url }}">{{ debate.title }}</a>
-      </li>
+      {% unless debate.hidden %}
+        <li>
+        	<a href="{{ debate.url }}">{{ debate.title }}</a>
+        </li>
+      {% endunless %}
     {% endfor %}
   </ul>
 

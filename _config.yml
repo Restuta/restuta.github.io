@@ -3,4 +3,5 @@ markdown: kramdown
 collections:
   debates:
    permalink: /debates/:path/
-   tags: debate
+   hidden: false
+   output: true
