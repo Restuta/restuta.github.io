@@ -20,6 +20,10 @@ title:
         <li>
         	<a href="{{ debate.url }}">{{ debate.title }}</a>
         </li>
+      {% else %}
+        <li class="link-hidden">
+          <a href="{{ debate.url }}">{{ debate.title }}</a>
+        </li>
       {% endunless %}
     {% endfor %}
   </ul>

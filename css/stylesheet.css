@@ -526,6 +526,17 @@ blockquote.wide {
                      scale-heartbeat 3s linear 38s infinite normal; 
 }
 
+.link-hidden {
+  display: none;
+}
+
+.link-used-to-be-hidden{
+    display: initial;
+}
+  .link-used-to-be-hidden a {
+    color: lightblue; 
+  }
+
 .animate-disappear {
   -webkit-animation: disappear 2s linear 30s 1 normal forwards;
 }
