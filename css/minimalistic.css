@@ -32,7 +32,7 @@ b {
 
 .date {
     font-style: italic;
-    font-size: 14px;
+    font-size: 0.8em;
     font-weight: 300;
     color: rgb(210, 210, 210);
 }
@@ -66,8 +66,8 @@ footer {
     margin-top: 2em;
 }
 
-.row img {
-    max-width: 100px;
+.img-responsive {
+    max-width: 100%;
 }
 
 .row img.img-big {
@@ -120,6 +120,9 @@ blockquote.small{
 }
 
 @media (min-width: 768px) {
+    body {
+        font-size: 3.2em;
+    }
     h1 {
         margin: 1em 0;
         text-align: left;
@@ -147,7 +150,7 @@ blockquote.small{
 
 @media (min-width: 992px) {
     body {
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
     .container {
         max-width: 970px;
@@ -169,6 +172,19 @@ blockquote.small{
     }
 }
 
+ @media (max-width: 768px){
+        body {
+        font-size: 3.2em;
+    }
+}
+
+
+/*@media (max-width: 992px) {
+    .button-ui {
+        font-size: 1.6em;
+    }
+}*/
+
 .button-ui--back {
     right: 0;
     bottom: 0;
@@ -184,7 +200,6 @@ blockquote.small{
     cursor: pointer;
     margin: 1em;
     padding: 0.3em 0.5em;
-    font-size: 0.8em;
     border-radius: 0.35em;
     color: #999;
     border: 0.25em solid;
