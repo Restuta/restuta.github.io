@@ -531,7 +531,7 @@ blockquote.wide {
 }
 
 .link-used-to-be-hidden{
-    display: initial;
+    display: list-item;
 }
   .link-used-to-be-hidden a {
     color: lightblue; 
