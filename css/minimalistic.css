@@ -207,3 +207,11 @@ blockquote.small{
     text-align: center;
     font-weight: 400;
 }
+
+hr.section-divider {
+    display: block;
+    width: 100px;
+    margin: 51px auto 41px auto;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,0.15);
+}
