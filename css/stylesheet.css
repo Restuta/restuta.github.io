@@ -38,6 +38,11 @@ footer, header, hgroup, menu, nav, section {
 ol, ul {
   list-style: circle;
   margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul ul {
+  margin-bottom: 0; 
 }
 
 ul.posts li {
@@ -147,6 +152,14 @@ strong {
   font-weight: bold;
 }
 
+.text-center {
+  text-align: center;  
+}
+
+.text-left {
+  text-align: left;
+}
+
 img {
   position: relative;
   margin: 0 auto;
@@ -201,22 +214,52 @@ blockquote {
   border-left: 3px solid #bbb;
 }
 
+i {
+  font-style: italic;
+}
+u {
+  text-decoration: none;
+}
 .block {
-  padding: 4px 20px 0px 14px;
+  padding: 4px 20px 4px 14px;
   margin-bottom: 20px;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   background-color: #fcf8e3;
-  border: 1px solid #fbeed5;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
+  .block p {
+    text-align: left;
+  }
 
-.green-block {
-  color: #468847;
-  background-color: #dff0d8;
-  border-color: #d6e9c6;
-}
+
+  .block.green {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+  }
+
+    .block.warning {
+
+    }
+    .block.warning .fa {
+      color: darkgoldenrod;  
+    }
+
+    .block.info {
+      background-color: rgb(231, 248, 255);
+
+    }
+    .block.info .fa {
+      color: rgb(125, 171, 190);  
+    }
+
+  .block .fa {
+    color: darkgoldenrod;
+  }
+
+  .block .fa:first-child {
+    margin-right: 5px;
+  }
 
 ul li {
   list-style-type: disc;
