@@ -50,7 +50,7 @@ b {
 }
 
 .glyphicon.dark-red, .fa.dark-red {
-    color: rgb(185, 0, 0);
+    color: #FF4136;
 }
 
 
@@ -188,6 +188,10 @@ blockquote.small{
 .button-ui--back {
     right: 0;
     bottom: 0;
+}
+
+a.button-ui:visited{
+    color: #999;
 }
 
 .icon {

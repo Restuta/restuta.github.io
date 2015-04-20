@@ -5,3 +5,6 @@ collections:
    permalink: /debates/:path/
    hidden: false
    output: true
+exclude:
+    - "slides"
+    - "cycling"
