@@ -72,3 +72,8 @@ title: Eating right
 <http://chriskresser.com/how-much-omega-3-is-enough-that-depends-on-omega-6>
 
 [Foods with good/bad ratio of Omega-3/6](https://docs.google.com/spreadsheets/d/1DYJMe4HoWLmdTJ8GYqizYc3jqehNHSiu_9JRD8zipUE/edit?usp=sharing)
+
+###Multivitamins and Supplements
+[Vitamin Myth, about Linus Pauling](http://www.theatlantic.com/health/archive/2013/07/the-vitamin-myth-why-we-think-we-need-supplements/277947/)
+[Wikipedia, Epidemiological research on multivitamin use and disease](https://en.wikipedia.org/wiki/Multivitamin#Epidemiological_research_on_multivitamin_use_and_disease)
+[Vitamin Myths](http://www.rd.com/health/wellness/5-vitamin-truths-and-lies/)
