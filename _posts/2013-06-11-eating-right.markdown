@@ -75,5 +75,7 @@ title: Eating right
 
 ###Multivitamins and Supplements
 [Vitamin Myth, about Linus Pauling](http://www.theatlantic.com/health/archive/2013/07/the-vitamin-myth-why-we-think-we-need-supplements/277947/)
+
 [Wikipedia, Epidemiological research on multivitamin use and disease](https://en.wikipedia.org/wiki/Multivitamin#Epidemiological_research_on_multivitamin_use_and_disease)
+
 [Vitamin Myths](http://www.rd.com/health/wellness/5-vitamin-truths-and-lies/)
