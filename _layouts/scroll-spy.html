@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="{{ page.title }}" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/scroll-spy.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.9.3/lodash.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <title>{{ page.title }}</title>
+  </head>
+
+  <body id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <span class="date">{{ page.date | date: "%-d %B %Y" }}</span> 
+          <h1>{{page.title}} </h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-9">{{content}}</div>
+        <div class="col-sm-3">
+          <nav class="sidebar">
+            <ul class="nav">
+            </ul>    
+          </nav>
+        </div>
+      </div>
+
+    </div>
+    <a href="#top" class="button-ui  button-ui--back">
+      <i class="fa fa-arrow-up icon"></i>
+    </a>
+  </body>
+
+  <script src="/javascripts/nav-bar-renderer.js"></script>
+</html>
