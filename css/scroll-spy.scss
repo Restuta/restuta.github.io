@@ -4,6 +4,8 @@
 // start content
 
 //typographic scale: 5 7 9 12 16 21 28 37 50 67 89
+$font-family: "Lato", sans-serif;
+$text-color: #222;
 $small-font-size: 12px;
 $main-font-size: 16px;
 $h3-font-size: 21px;
@@ -11,10 +13,10 @@ $h2-font-size: 28px;
 $h1-font-size: 37px;
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: $font-family;
     font-weight: 400;
     font-size: $main-font-size;
-    color: #222;
+    color: $text-color;
     margin: 4em 0;
 }
 
@@ -87,7 +89,27 @@ p {
     color: rgb(210, 210, 210);
 }
 
+pre {
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
 
+  margin: 0;
+  padding: 0;
+  font-size: $main-font-size;
+  font-family: $font-family;
+  line-height: inherit;
+  color: $text-color;
+  word-break: normal;
+  word-wrap: normal;
+  background-color: inherit;
+  border: none;
+  border-radius: 0;
+}
+
+/* scroll-up button ----- */
 .button-ui--back {
     right: 0;
     bottom: 0;
