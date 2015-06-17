@@ -185,6 +185,13 @@ blockquote.small{
     }
 }*/
 
+}
+
+.icon {
+    display: inline-block;
+    text-align: center;
+}
+
 .button-ui--back {
     right: 0;
     bottom: 0;
@@ -194,10 +201,6 @@ a.button-ui:visited{
     color: #999;
 }
 
-.icon {
-    display: inline-block;
-    text-align: center;
-}
 .button-ui {
     position: fixed;
     display: block;

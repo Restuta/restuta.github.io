@@ -12,6 +12,9 @@ $h3-font-size: 21px;
 $h2-font-size: 28px;
 $h1-font-size: 37px;
 
+$restuta-bubble-color: rgba(165, 228, 255, 0.33);
+$me4ta-bubble-color: rgba(205, 165, 255, 0.33);
+
 body {
     font-family: $font-family;
     font-weight: 400;
@@ -26,11 +29,17 @@ h1 {
     margin: 40px 0 20px;
     border-bottom: 1px solid #eee;
     font-weight: 700;
+    
+    &.title {
+      text-align: center;
+    }
 }
 h2 {
     font-size: $h2-font-size;
     font-weight: 700;
     margin: 1em 0;
+    color: lightseagreen;
+    text-align: center;
 }
 h3 {
     font-size: $h3-font-size;
@@ -40,7 +49,7 @@ h3 {
 }
 
 p {
-  magin: 0 0 15px;
+  margin: 0 0 15px;
 }
 
 .nav {
@@ -104,7 +113,7 @@ pre {
   color: $text-color;
   word-break: normal;
   word-wrap: normal;
-  background-color: inherit;
+  background-color: transparent;
   border: none;
   border-radius: 0;
 }
@@ -153,7 +162,7 @@ hr.section-divider {
 
 .bubble {
   position: relative;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
   background: #DAEEFF;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
@@ -163,7 +172,7 @@ hr.section-divider {
   &.restuta {
     width: 100%;
     /*left: 65px;*/
-    background: #DAEEFF;
+    background: $restuta-bubble-color;
 
     .avatar {
       position: absolute;
@@ -185,7 +194,7 @@ hr.section-divider {
       position: absolute;
       border-style: solid;
       border-width: 10px 9px 10px 0;
-      border-color: transparent #DAEEFF;
+      border-color: transparent $restuta-bubble-color;
       display: block;
       width: 0;
       z-index: 1;
@@ -196,7 +205,7 @@ hr.section-divider {
 
   &.me4ta {
     width: 100%;
-    background: #E7D4FF;
+    background: $me4ta-bubble-color;
 
     .avatar {
       position: absolute;
@@ -218,7 +227,7 @@ hr.section-divider {
       position: absolute;
       border-style: solid;
       border-width: 10px 0 10px 9px;
-      border-color: transparent #E7D4FF;
+      border-color: transparent $me4ta-bubble-color;
       display: block;
       width: 0;
       z-index: 1;
