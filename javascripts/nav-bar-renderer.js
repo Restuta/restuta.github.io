@@ -28,6 +28,7 @@
       el: headings,
       id: heading.id,
       text: textContent,
+      type: heading.tagName.toUpperCase(),
       children: []
     };
 
@@ -43,7 +44,7 @@
     var template = '';
 
     _.each(headings, function(heading) {
-      template += '<li><a href="#' + heading.id + '">' + heading.text + '</a>';
+      template += '<li ' + 'class="heading-type-' + heading.type + '"' + '><a href="#' + heading.id + '">' + heading.text + '</a>';
 
       if (heading.children.length) {
         template += '<ul class="nav">';
