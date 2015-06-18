@@ -19,15 +19,15 @@
   <body id="top">
     <div class="container">
       <div class="row">
-        <div class="col-sm-9">
+        <div class="col-sm-offset-1 col-sm-9">
           <span class="date">{{ page.date | date: "%-d %B %Y" }}</span> 
           <h1 class="title">{{page.title}} </h1>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-sm-9">{{content}}</div>
-        <div class="col-sm-3">
+        <div class="col-sm-9 col-sm-offset-1">{{content}}</div>
+        <div class="col-sm-2">
           <nav class="sidebar">
             <ul class="nav">
             </ul>    
