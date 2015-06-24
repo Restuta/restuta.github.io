@@ -98,5 +98,13 @@ permalink: /pregnancy/1/
 </p>  
 </div>
 
+## Неделя 7?
+
+https://github.com/fat/zoom.js
+
+<div markdown="1">
+{% include /pregnancy/1/week-7.md %}
+</div>
+
 
 
