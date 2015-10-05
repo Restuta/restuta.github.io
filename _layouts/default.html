@@ -4,7 +4,12 @@
     <meta charset='utf-8' />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="{{ page.title }}" />
+
+    {% unless page.title %} <!-- if home page -->
+      <meta name="description" content="Anton Vynogradenko's (Restuta) personal blog" />
+    {% else %}
+      <meta name="description" content="{{ page.title }}" />
+    {% endunless %}
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="/javascripts/mousetrap.min.js"></script>
@@ -14,7 +19,12 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700,800&subset=cyrillic-ext,latin" rel="stylesheet" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <title>{{ page.title }}</title>
+    {% unless page.title %} <!-- if home page -->
+      <title>Anton Vynogradenko's personal blog</title>
+    {% else %}
+      <title>{{ page.title }}</title>
+    {% endunless %}
+
   </head>
 
   <body>
@@ -23,7 +33,7 @@
         <header class="inner">
 
           {% unless page.title %} <!-- if home page -->
-            <a id="forkme_banner" class="opacity50 fork-me" href="https://twitter.com/Restuta">Anton Vynogradenko 
+            <a id="forkme_banner" class="opacity50 fork-me" href="https://twitter.com/Restuta">Anton Vynogradenko
               <span class="fa fa-twitter" aria-hidden="true"></span>
             </a>
             <span id="project_title" class="home-title">
@@ -31,9 +41,9 @@
             </span>
           {% else %}
             <a id="forkme_banner" class="opacity50 fork-me" href="/">restuta.me</a>
-            <h1 id="project_title" class="post-title">{{ page.title }}</h1> 
+            <h1 id="project_title" class="post-title">{{ page.title }}</h1>
           {% endunless %}
-        
+
           {% if page.tags %}
             <h2 id="project_tagline">#{{ page.tags | join:' #' }}</h2>
           {% endif %}

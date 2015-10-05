@@ -42,7 +42,7 @@ ol, ul {
 }
 
 ul ul {
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 
 ul.posts li {
@@ -153,7 +153,7 @@ strong {
 }
 
 .text-center {
-  text-align: center;  
+  text-align: center;
 }
 
 .text-left {
@@ -242,7 +242,7 @@ u {
 
     }
     .block.warning .fa {
-      color: darkgoldenrod;  
+      color: darkgoldenrod;
     }
 
     .block.info {
@@ -250,7 +250,7 @@ u {
 
     }
     .block.info .fa {
-      color: rgb(125, 171, 190);  
+      color: rgb(125, 171, 190);
     }
 
   .block .fa {
@@ -555,7 +555,7 @@ blockquote.wide {
 
 #equals {
   opacity: 0;
-  -webkit-animation: appear 2s linear 33s 1 normal forwards; 
+  -webkit-animation: appear 2s linear 33s 1 normal forwards;
 }
 
 #me4ta {
@@ -566,7 +566,7 @@ blockquote.wide {
   color: #FF4136;
   opacity: 0;
   -webkit-animation: appear 2s linear 36s 1 normal forwards,
-                     scale-heartbeat 3s linear 38s infinite normal; 
+                     scale-heartbeat 3s linear 38s infinite normal;
 }
 
 .link-hidden {
@@ -577,7 +577,7 @@ blockquote.wide {
     display: list-item;
 }
   .link-used-to-be-hidden a {
-    color: lightblue; 
+    color: lightblue;
   }
 
 .animate-disappear {
@@ -585,7 +585,7 @@ blockquote.wide {
 }
 
 .animate-move-left {
-  -webkit-animation: move-left 2s linear 30s 1 normal forwards; 
+  -webkit-animation: move-left 2s linear 30s 1 normal forwards;
 }
 
 #me-domain {
@@ -600,12 +600,12 @@ blockquote.wide {
   -webkit-animation: blink-me 10s linear 2s 3 normal,
                      disappear 2s linear 30s 1 normal forwards;
 
-  animation: blink-me 10s infinite;
-  animation-timing-function: linear;
-  animation-delay: 2s;
+  animation: blink-me 10s linear 2s 3 normal,
+             disappear 2s linear 30s 1 normal forwards;
+
 
   /* animate disappearing */
-  
+
 }
 /*animation: name duration timing-function delay iteration-count direction fill-mode play-state;*/
 
@@ -664,4 +664,3 @@ blockquote.wide {
         opacity: 1;
     }
 }
-
