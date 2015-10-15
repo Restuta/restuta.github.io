@@ -69,6 +69,12 @@ h3
 .big-text
     font-size: 60px
 
+.bespoke-bullet-active
+    color: #D3D3D3;
+.bespoke-bullet-current
+    color: black;
+
+
 .emphatic
     &.background-cyan
         background: #0ac2d2
@@ -76,10 +82,15 @@ h3
     &.background-blue
         background: #7bb7fa
         color: #FFFFFF
+    &.background-gray
+        background: #BBBBBB
+        color: #222
     &.background-green
         background: #60d7a9
     &.background-yellow
         background: #fdc162
+      .bespoke-bullet-active:
+        color: #E8A85B !important
     &.background-red
         background: #fd6a62
     &.background-dark-red
@@ -92,10 +103,6 @@ h3
     &.background-mellow
         background: #FBF0E3
 
-.bespoke-bullet-active
-    color: #D3D3D3;
-.bespoke-bullet-current
-    color: black;
 
 blockquote
     font-size: 28px
