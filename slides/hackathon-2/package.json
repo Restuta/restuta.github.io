@@ -1,6 +1,7 @@
 {
-  "name": "presentation-slack",
-  "version": "0.0.0",
+  "name": "presentation-ingenio-hackathon-2.0",
+  "version": "0.0.1",
+  "private": true,
   "dependencies": {},
   "devDependencies": {
     "bespoke": "^1.0.0",

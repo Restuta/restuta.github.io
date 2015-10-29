@@ -1,7 +1,8 @@
 {
-  "name": "presentation-slack",
-  "version": "0.0.0",
+  "name": "restuta.me/slides",
+  "version": "0.0.1",
   "dependencies": {
     "prism": "gh-pages"
-  }
+  },
+  "private": true
 }

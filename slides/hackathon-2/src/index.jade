@@ -8,8 +8,11 @@ html
     link(rel='stylesheet', type='text/css', href='build/build.css')
     link(href='http://fonts.googleapis.com/css?family=Open+Sans:300,600', rel='stylesheet', type='text/css')
     link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css')
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:400,700,300,600,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
     link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet")
 
+- var testVariable = "this is a variable"
   body
     mixin icon(name)
       span(class= 'fa ' + name)
@@ -17,12 +20,8 @@ html
   
     article    
       section
-        h1
-          span.grey SVN
-          |  → 
-          +icon('fa-git-square orange')
-          |  → 
-          +icon('fa-github green') 
+        h1.secondary Team <span class="green primary">Mutant</span> presents
+        h2
       
       section
         h2 
