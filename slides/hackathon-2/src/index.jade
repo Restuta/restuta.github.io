@@ -1,0 +1,99 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title How to drop SVN 
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:300,600', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css')
+    link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet")
+
+  body
+    mixin icon(name)
+      span(class= 'fa ' + name)
+  
+  
+    article    
+      section
+        h1
+          span.grey SVN
+          |  → 
+          +icon('fa-git-square orange')
+          |  → 
+          +icon('fa-github green') 
+      
+      section
+        h2 
+        ul.nested
+          li We will talk about
+            ul
+              li Immediate benefits of #[+icon('fa-git-square orange')]
+              li Benefits of #[+icon('fa-github green')]
+              li Transition Plan
+              li Homework
+              
+      section
+        img(src="images/scm-popularity.png")
+        a.text-left(href="http://stackoverflow.com/research/developer-survey-2015#tech-sourcecontrol") Source
+                
+      section
+        img(src="images/svn.png")
+      
+      section
+        img(src="images/git.png")    
+                  
+      section(data-bespoke-state='emphatic background-gray')
+        h2 SVN 
+        h3 
+          s Local Commits
+        
+      section(data-bespoke-state='emphatic background-yellow')
+        h2 Git Demo 
+        h3 Local Commits
+        
+      section(data-bespoke-state='emphatic background-gray')
+          h2 SVN 
+          ul
+            li Branching
+            li if we want to wait like 10 minutes
+            li and have a copy of all files
+      section(data-bespoke-state='emphatic background-yellow')
+        h2 Git Demo 
+        h3 Branching
+        ul
+          li create
+          li switch
+          li experiment
+          li freedom
+      
+      secion
+        h1 
+          +icon('fa-github  fa-4x') 
+          
+      section(data-bespoke-state='emphatic background-gray')
+        h2 SVN
+        ul
+          li Cant browse code online
+          li But that is no the point
+          
+      section(data-bespoke-state='emphatic background-green')
+        h2 GitHub
+        ul
+          li Browse code
+          li Code Review
+          li Pull Requests
+          
+      section(data-bespoke-state='emphatic background-cyan')
+        h1 Demo
+      
+      section
+        h1 Transition
+        ul
+          li Github Enterprise
+          li github.com
+          li SVN mirror
+          li SVN manual mirror
+
+    script(src='build/build.js')
