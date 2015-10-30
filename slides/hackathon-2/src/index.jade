@@ -27,11 +27,36 @@ html
         img(src="images/01a-advisors.jpg")
       
       section
+        img(src="images/01b-advisors.jpg")
+      
+      section
         img(src="images/02-advisors.png")
       
       section
         img(src="images/sweet.jpg")
         
+      section
+        h1.light Why are they <span class="primary green">SWEET?</span>
+      
+      section
+        img(src="images/9x-more.jpg")
+          
+      section(data-bespoke-state='emphatic background-pink')
+        h1.black #[+icon('fa-dollar')] #[+icon('fa-dollar')] #[+icon('fa-dollar')]
+        h1.white Eager
+
+      section(data-bespoke-state='emphatic background-black')
+        h1.blak #[+icon('fa-thumbs-up gold')] #[+icon('fa-thumbs-up gold')] #[+icon('fa-thumbs-up gold')] #[+icon('fa-thumbs-up gold')] #[+icon('fa-thumbs-up  opacity-5')]
+        h1.white Good
+        h3.light And don't know about it
+      
+      section(data-bespoke-state='emphatic background-green')
+        h1.black #[+icon('fa-calendar-check-o')]
+        h1 Available        
+      
+      section(data-bespoke-state='emphatic background-yellow')
+        h1 #[+icon('fa-meh-o')]
+        h1 Can handle more calls
       
       section
         h2.pink S
@@ -40,10 +65,17 @@ html
         h2.green(style="opacity: 0.6;") SWEEEET
         h2.green(style="opacity: 0.5;") SWEEEEEET
         h2.green(style="opacity: 0.4;") SWEEEEEEEET
-        h2.green(style="opacity: 0.3;") SWEEEEEEEEEET
+        h2.green(style="opacity: 0.3;") SWEEEEEEEEEET  
         
       section
-        h1.light Why are they <span class="primary green">SWEET?</span>
+        h2 
+          - for (var i = 0; i < 104; ++i) {
+            - if (i == 20) {
+              #[+icon('fa-user pink')] 
+            - } else {
+              #[+icon('fa-user')] 
+            - }  
+          - }
       
       section
         ul.nested

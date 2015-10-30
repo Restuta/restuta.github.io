@@ -20,6 +20,9 @@ body
 .title
   text-transform: uppercase
 
+.lato
+  font-family: "Lato", helvetica, arial, sans-serif
+
 h1, h2,
 h1 span,
 h2 span
@@ -32,6 +35,9 @@ h2 span
   font-weight: 100
   font-family: "Lato", helvetica, arial, sans-serif
 
+.opacity-5
+  opacity: 0.3;
+
 .light
   font-weight: 300
   font-family: "Lato", helvetica, arial, sans-serif
@@ -42,6 +48,9 @@ img
 
 img.medium
     width: 500px
+
+.italic
+  font-style: italic
 
 li
     font-size: 26px
@@ -56,8 +65,7 @@ ul.nested li
     margin-left: 50px
 
 h3
-    font-size: 26px
-    color: black
+  font-size: 26px
 
 .text-left
   text-align: left
@@ -85,7 +93,11 @@ h3
 .purple
     color: #B10DC9 !important
 .white
-    color: white !important
+    color: #F1F1F1 !important
+.black
+    color: #333 !important
+.gold
+    color: gold !important
 
 .big-text
     font-size: 60px
@@ -99,15 +111,16 @@ h3
 .emphatic
     &.background-cyan
         background: #0ac2d2
-        color: white
+        color: #F1F1F1
     &.background-blue
         background: #7bb7fa
-        color: #FFFFFF
+        color: #F1F1F1
     &.background-gray
         background: #BBBBBB
         color: #222
     &.background-green
         background: #60d7a9
+        color: rgba(255, 255, 255, 0.8);
     &.background-yellow
         background: #fdc162
     &.background-red
@@ -116,11 +129,13 @@ h3
         background: #c03636
     &.background-pink
         background: #f68dbb
+        color: rgba(255, 255, 255, 0.8);
     &.background-black
         background: #111111
-        color: #FFFFFF
+        color: #F1F1F1
     &.background-mellow
         background: #FBF0E3
+        color: #333
 
 
 blockquote
