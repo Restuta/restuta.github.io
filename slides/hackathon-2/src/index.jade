@@ -94,7 +94,7 @@ html
         h4(style="font-size: 12px") 
           - for (var i = 0; i < 1000; ++i) {
             - if (i < 5 || i > 43 && i < 49 || i > 87 && i < 93) {
-              #[+icon('fa-smile-o bright-blue')] 
+              #[+icon('fa-smile-o deep-black')] 
             - } else {
               #[+icon('fa-meh-o opacity-2')] 
             - }  
@@ -102,11 +102,11 @@ html
           
       section
         h2.light.opacity-1 1000 visitors
-        h4.bright-blue(style=" position: absolute; left: 41px; top: 75px;") 1.5% conversion
+        h4.deep-black(style=" position: absolute; left: 41px; top: 75px;") 1.5% conversion
         h4(style="font-size: 12px") 
           - for (var i = 0; i < 1000; ++i) {
             - if (i < 5 || i > 43 && i < 49 || i > 87 && i < 93) {
-              #[+icon('fa-smile-o bright-blue')] 
+              #[+icon('fa-smile-o deep-black')] 
             - } else {
               #[+icon('fa-meh-o opacity-2')] 
             - }  
@@ -140,9 +140,6 @@ html
         img(src="images/marry-4.jpg") 
         
       section
-        h2 Lets recap
-        
-      section
         h2 RECAP
         ul.nested
           li
@@ -171,79 +168,5 @@ html
               li $2.99 (expensive)
               li No-limit (scared)
               li PPM only 
-      
-      section
-        ul.nested
-          li 
-            ul
-              li Immediate benefits of #[+icon('fa-git-square orange')]
-              li Benefits of #[+icon('fa-github green')]
-              li Transition Plan
-              li Homework
-      section
-        h2 
-        ul.nested
-          li We will talk about
-            ul
-              li Immediate benefits of #[+icon('fa-git-square orange')]
-              li Benefits of #[+icon('fa-github green')]
-              li Transition Plan
-              li Homework
-              
-      //- section
-      //-   img(src="images/scm-popularity.png")
-      //-   a.text-left(href="http://stackoverflow.com/research/developer-survey-2015#tech-sourcecontrol") Source
-              
-                  
-      section(data-bespoke-state='emphatic background-gray')
-        h2 SVN 
-        h3 
-          s Local Commits
-        
-      section(data-bespoke-state='emphatic background-yellow')
-        h2 Git Demo 
-        h3 Local Commits
-        
-      section(data-bespoke-state='emphatic background-gray')
-          h2 SVN 
-          ul
-            li Branching
-            li if we want to wait like 10 minutes
-            li and have a copy of all files
-      section(data-bespoke-state='emphatic background-yellow')
-        h2 Git Demo 
-        h3 Branching
-        ul
-          li create
-          li switch
-          li experiment
-          li freedom
-      
-      secion
-        h1 
-          +icon('fa-github  fa-4x') 
-          
-      section(data-bespoke-state='emphatic background-gray')
-        h2 SVN
-        ul
-          li Cant browse code online
-          li But that is no the point
-          
-      section(data-bespoke-state='emphatic background-green')
-        h2 GitHub
-        ul
-          li Browse code
-          li Code Review
-          li Pull Requests
-          
-      
-      
-      section
-        h1 Transition
-        ul
-          li Github Enterprise
-          li github.com
-          li SVN mirror
-          li SVN manual mirror
-
+            
     script(src='build/build.js')
