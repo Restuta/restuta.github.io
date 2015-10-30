@@ -23,6 +23,9 @@ html
         h1.title.secondary Team <span class="green primary">Mutant</span> presents
         h2
       
+      section(data-bespoke-state='emphatic background-cyan')
+        h1 Reffo
+      
       section
         img(src="images/01a-advisors.jpg")
       
@@ -34,12 +37,14 @@ html
       
       section
         img(src="images/sweet.jpg")
+          
+      section
+        h2 Advisors who get 
+        h2 2-3 calls per day are our <span class="green">Sweet Spot</span>
         
       section
-        h1.light Why are they <span class="primary green">SWEET?</span>
+        h1.light Why <span class="primary green">SWEET?</span>
       
-      section
-        img(src="images/9x-more.jpg")
           
       section(data-bespoke-state='emphatic background-pink')
         h1.black #[+icon('fa-dollar')] #[+icon('fa-dollar')] #[+icon('fa-dollar')]
@@ -49,13 +54,19 @@ html
         h1.blak #[+icon('fa-thumbs-up gold')] #[+icon('fa-thumbs-up gold')] #[+icon('fa-thumbs-up gold')] #[+icon('fa-thumbs-up gold')] #[+icon('fa-thumbs-up  opacity-5')]
         h1.white Good
         h3.light And don't know about it
+        
+      section
+        h1 How good?
+        
+      section
+        img(src="images/9x-more.jpg")
       
       section(data-bespoke-state='emphatic background-green')
         h1.black #[+icon('fa-calendar-check-o')]
-        h1 Available        
+        h1.white Available        
       
       section(data-bespoke-state='emphatic background-yellow')
-        h1 #[+icon('fa-meh-o')]
+        h1 #[+icon('fa-smile-o')]
         h1 Can handle more calls
       
       section
@@ -68,14 +79,98 @@ html
         h2.green(style="opacity: 0.3;") SWEEEEEEEEEET  
         
       section
-        h2 
-          - for (var i = 0; i < 104; ++i) {
-            - if (i == 20) {
-              #[+icon('fa-user pink')] 
+        h1.title Let's talk about <span class="bright-blue">Users</span>
+      
+      section
+        h2.light 1000 visitors
+        h4(style="font-size: 12px") 
+          - for (var i = 0; i < 1000; ++i) {
+              #[+icon('fa-meh-o opacity-7')] 
+          - }
+        
+      section
+        h2.light 1000 visitors
+        //- h4.light.bright-blue(style=" position: absolute; left: 41px; top: 80px;") 1.5% conversion
+        h4(style="font-size: 12px") 
+          - for (var i = 0; i < 1000; ++i) {
+            - if (i < 5 || i > 43 && i < 49 || i > 87 && i < 93) {
+              #[+icon('fa-smile-o bright-blue')] 
             - } else {
-              #[+icon('fa-user')] 
+              #[+icon('fa-meh-o opacity-2')] 
             - }  
           - }
+          
+      section
+        h2.light.opacity-1 1000 visitors
+        h4.bright-blue(style=" position: absolute; left: 41px; top: 75px;") 1.5% conversion
+        h4(style="font-size: 12px") 
+          - for (var i = 0; i < 1000; ++i) {
+            - if (i < 5 || i > 43 && i < 49 || i > 87 && i < 93) {
+              #[+icon('fa-smile-o bright-blue')] 
+            - } else {
+              #[+icon('fa-meh-o opacity-2')] 
+            - }  
+          - }   
+      
+      section
+        img(src="images/usr-persp.jpg") 
+      
+      section
+        img(src="images/usr-persp2.jpg") 
+      
+      section
+        img(src="images/our-users.jpg") 
+      
+      section
+        h1 We are targeting <span class="bright-blue lato">1%</span> of Web Visitors
+        
+      section
+        img(src="images/marry-0.jpg") 
+
+      section
+        img(src="images/marry-1.jpg") 
+        
+      section
+        img(src="images/marry-2.jpg") 
+        
+      section
+        img(src="images/marry-3.jpg") 
+        
+      section
+        img(src="images/marry-4.jpg") 
+        
+      section
+        h2 Lets recap
+        
+      section
+        h2 RECAP
+        ul.nested
+          li
+            ul
+              li we don't disturb TOP performers
+              li we make <span class="green">Sweet Advisors</span> sweeter
+              li we target new category of <span class="bright-blue">Users</span>
+              li we marry the two
+
+      section(data-bespoke-state='emphatic background-red')
+        h1 But how?
+        
+      section(data-bespoke-state='emphatic background-cyan')
+        h1 We revert Offers 
+        h1.yellow #[+icon('fa-anchor fa-rotate-180')]
+        
+      
+      section(data-bespoke-state='emphatic background-deep-black')
+        h1 DEMO 
+          img(src="images/glass-wine.jpeg")
+      
+      section
+        ul.nested
+          li Today on Keen
+            ul
+              li $2.99 (expensive)
+              li No-limit (scared)
+              li PPM only 
       
       section
         ul.nested
@@ -141,8 +236,7 @@ html
           li Code Review
           li Pull Requests
           
-      section(data-bespoke-state='emphatic background-cyan')
-        h1 Demo
+      
       
       section
         h1 Transition
