@@ -5,6 +5,7 @@
  */
 
 @import '../variables.scss';
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 html, body {
   margin: 0;
@@ -15,7 +16,9 @@ html, body {
 }
 
 .Layout {
-  margin: 0 auto;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 10vh;
 }
 
 @media (min-width: $screen-sm-min) {

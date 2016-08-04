@@ -49,5 +49,10 @@
     "build:prod": "babel-node --eval \"require('./tools/build-prod')().catch(err => console.log(err.stack))\"",
     "start": "babel-node --eval \"require('./tools/start')().catch(err => console.log(err.stack))\"",
     "deploy": "babel-node --eval \"require('./tools/deploy')().catch(err => console.log(err.stack))\""
+  },
+  "dependencies": {
+    "exports-loader": "^0.6.3",
+    "firebase": "^2.4.1",
+    "imports-loader": "^0.6.5"
   }
 }

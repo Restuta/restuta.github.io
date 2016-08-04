@@ -5,7 +5,7 @@
  */
 
 import React, { Component, PropTypes } from 'react';
-import GoogleAnalytics from '../GoogleAnalytics';
+// import GoogleAnalytics from '../GoogleAnalytics';
 import { title, description } from '../../config';
 
 class Html extends Component {
@@ -27,12 +27,12 @@ class Html extends Component {
         <meta name="description" content={this.props.description || description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+        <script src={'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js'}></script>
         <script src={'/app.js?' + new Date().getTime()}></script>
       </head>
       <body>
         <div id="app" dangerouslySetInnerHTML={{__html: this.props.body}} />
-        {/*<GoogleAnalytics />*/}
+        {/* <GoogleAnalytics /> */}
       </body>
       </html>
     );

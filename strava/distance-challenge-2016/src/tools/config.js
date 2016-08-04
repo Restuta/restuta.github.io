@@ -41,7 +41,7 @@ const config = {
     publicPath: '/',
     sourcePrefix: '  ',
   },
-  cache: false,
+  cache: true,
   debug: DEBUG,
   stats: {
     colors: true,
@@ -59,6 +59,11 @@ const config = {
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': DEBUG ? '"development"' : '"production"',
       '__DEV__': DEBUG,
+    }),
+    new webpack.ProvidePlugin({
+      // $: 'jquery',
+      // jQuery: 'jquery',
+      // 'window.jQuery': 'jquery',
     }),
   ],
   module: {
