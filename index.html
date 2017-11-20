@@ -3,7 +3,7 @@ layout: default
 title:
 ---
 <div id="home">
-  <h1>Posts</h1>
+  <h2>Posts</h2>
   <ul class="posts">
     {% for post in site.posts %}
       {% unless post.tags contains 'debate' or post.tags contains 'private' %}
@@ -13,12 +13,12 @@ title:
     {% endfor %}
   </ul>
 
-  <h1>Medium</h1>
+  <h2>Medium</h2>
   <ul class="posts">
     <li><a href="https://medium.com/@Restuta/how-to-win-and-how-not-to-win-a-hackathon-adfcb548d366">How to win and how not to win a hackathon</a></li>
   </ul>
 
-  <h1>Debates</h1>
+  <h2>Debates</h2>
   <ul class="posts">
     {% for debate in site.debates %}
       {% unless debate.hidden %}
@@ -33,9 +33,17 @@ title:
     {% endfor %}
   </ul>
 
-  <h1>Slides</h1>
+  <h2>Slides</h2>
   <ul class="posts">
     <li><a href="/slides/slack/">Slack</a></li>
+    <li><a href="/slides/git-svn/">Git Svn</a></li>
+    <li><a href="/slides/hackathon-2/">Ingenio Hackathon 2</a></li>
+    <li><a href="/slides/ncnca/">NCNCA Promoters Meeting</a></li>
+  </ul>
+
+  <h2>Other</h2>
+  <ul class="posts">
+    <li><a href="/twitter-archive">Slack</a></li>
     <li><a href="/slides/git-svn/">Git Svn</a></li>
     <li><a href="/slides/hackathon-2/">Ingenio Hackathon 2</a></li>
     <li><a href="/slides/ncnca/">NCNCA Promoters Meeting</a></li>

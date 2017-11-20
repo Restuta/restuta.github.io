@@ -49,6 +49,11 @@ ul.posts li {
   list-style-type: none;
 }
 
+.posts {
+  margin-bottom: 30px;
+  margin-left: 0;
+}
+
 blockquote, q {
 }
 
@@ -88,9 +93,9 @@ h1 {
 }
 
 h2 {
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   font-size: 32px;
-  background: url('../images/bg_hr.png') repeat-x bottom;
+  /*background: url('../images/bg_hr.png') repeat-x bottom;*/
 }
 
 h3 {
